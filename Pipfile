@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = false
+name = "pip_conf_index_global"
+
+[packages]
+langchain = "*"
+black = "*"
+python-dotenv = "*"
+openai = "*"
+langchain-openai = "*"
+langchain-community = "*"
+langchainhub = "*"
+google-search-results = "*"
+tweepy = "*"
+flask = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
